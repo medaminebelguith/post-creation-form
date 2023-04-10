@@ -1,0 +1,66 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.display {
+   /* display: none;*/
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.message {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #DFF2BF;
+    border: 1px solid #4F8A10;
+    color: #4F8A10;
+}
+
+.error {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #FFBABA;
+    border: 1px solid #D8000C;
+    color: #D8000C;
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for screens smaller than 480px */
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"], textarea {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+    }
+}
